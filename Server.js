@@ -11,9 +11,9 @@ dotenv.config()
 import { v2 as cloudinary } from "cloudinary";
 
 cloudinary.config({
-  cloud_name: "drxsgayj2",
-  api_key: "638675799383433",
-  api_secret: "Wmv5XHmLn7lBnvzOvTYCSBPZhBw",
+  cloud_name: process.env.CLOUD_NAME,
+  api_key: process.env.API_KEY,
+  api_secret: process.env.API_SECREAT,
 });
 
 app.use(express.urlencoded({ extended: true }))
