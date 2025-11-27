@@ -56,7 +56,11 @@ multipart/form-data with a field named image
 
 📁 Folder Structure
 ├── Model/
+
 ├── views/
+
 ├── public/
+
 ├── Server.js
+
 └── package.json
